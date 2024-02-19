@@ -14,9 +14,10 @@ function Home() {
           <LinkedInIcon />
          
          
-      <a href="https://github.com/bhargavreddy982" target="_blank" rel="noopener noreferrer">
-    <GitHubIcon />
-  </a>
+      <    <GitHubIcon />
+<a href="https://github.com/bhargavreddy982" target="_blank" rel="noopener noreferrer">
+  <img src="github_icon_url" alt="GitHub" />
+</a>
 
       
         </div>
