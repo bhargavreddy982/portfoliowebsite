@@ -1,30 +1,22 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
-import { GitHub as GitHubIcon, Language as WebsiteIcon } from "@material-ui/icons";
-import "../styles/ProjectDisplay.css";
 
-function ProjectDisplay() {
-  const { id } = useParams();
-  const project = ProjectList[id];
+import "../styles/Projects.css";
+
+function Projects() {
   return (
-    <div className="project">
-      <h1> {project.name}</h1>
-      <img src={project.image} alt={project.name} />
-      <p>
-        <b>Skills:</b> {project.skills}
-      </p>
-      
-      <div className="icons-container">
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
-          <WebsiteIcon />
-        </a>
-        <a href="https://github.com/bhargavreddy982" target="_blank" rel="noopener noreferrer">
-          <GitHubIcon />
-        </a>
+    <div className="projects">
+      <h1> My Personal Projects</h1>
+      <div className="projectList">
+        {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem id={idx} name={project.name} image={project.image} link={project.link} />
+          );
+        })}
       </div>
     </div>
   );
 }
 
-export default ProjectDisplay;
+export default Projects;
