@@ -11,15 +11,14 @@ function Home() {
         <h2> Hi, This is Bhargav </h2>
         <div className="prompt">
           <p>An aspiring software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-         
-         
-      <    <GitHubIcon />
-<a href="https://github.com/bhargavreddy982" target="_blank" rel="noopener noreferrer">
-  <img src="github_icon_url" alt="GitHub" />
-</a>
 
-      
+          
+ <a href="https://www.linkedin.com/in/bhargav-reddy-99a514216/" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+          </a>
+          <a href="https://github.com/bhargavreddy982" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -28,26 +27,26 @@ function Home() {
           <li className="item">
             <h2> Programming</h2>
             <span>
-            C/C++, Python.
+              C/C++, Python.
             </span>
           </li>
           <li className="item">
             <h2> Web Development</h2>
             <span>
-            Html, CSS, JavaScript, Nodejs, Mongo DB, Redux, tailwind CSS.
-
+              Html, CSS, JavaScript, Nodejs, Mongo DB, Redux, tailwind CSS.
             </span>
           </li>
           <li className="item">
             <h2> Tools/Frameworks</h2>
             <span> Express.js, React, Bootstrap, MATLAB.</span>
           </li>
-
           <li className="item">
             <h2> ACHEIVEMENTS</h2>
-            <span> Advanced till final round in EMIDS-HEALTHCARE HACKATHON 
+            <span>
+              Advanced till the final round in EMIDS-HEALTHCARE HACKATHON 
               <br/>
-                 Solved 400+ Data Structures and Algorithms in various Coding Platform</span>
+              Solved 400+ Data Structures and Algorithms in various Coding Platforms
+            </span>
           </li>
         </ol>
       </div>
