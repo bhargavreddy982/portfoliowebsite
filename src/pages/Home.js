@@ -13,7 +13,9 @@ function Home() {
           <p>An aspiring software developer with a passion for learning and creating.</p>
           <LinkedInIcon />
          
-          <GithubIcon />
+         <a href="https://github.com/bhargavreddy982" target="_blank" rel="noopener noreferrer">
+        <GitHubIcon />
+      </a>
         </div>
       </div>
       <div className="skills">
